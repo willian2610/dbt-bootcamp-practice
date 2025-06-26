@@ -1,25 +1,15 @@
-# Airbnb Analytics Engineering Project
+Welcome to your new dbt project!
 
-This project was developed during the **[Complete dbt Bootcamp: Zero to Hero](https://www.udemy.com/course/complete-dbt-data-build-tool-bootcamp-zero-to-hero-learn-dbt)** course. It simulates the daily tasks of an Analytics Engineer at Airbnb, using dbt to model, clean, test, and document data pipelines.
+### Using the starter project
 
-### Objective
+Try running the following commands:
+- dbt run
+- dbt test
 
-Build a modern analytics workflow using **dbt** and **Snowflake**, working through all layers of a data pipeline:
 
-- Raw → Staging → Core → Marts
-- Dimensional modeling and incremental loads
-- Data quality tests and snapshots
-- Auto-generated documentation
-
-### Dataset
-
-The dataset comes from **[Inside Airbnb](http://insideairbnb.com/get-the-data.html)** and focuses on listings, hosts, and reviews in **Berlin**. It includes:
-
-- `raw_listings`: listing-level information (location, price, availability, etc.)
-- `raw_hosts`: host profiles
-- `raw_reviews`: guest reviews, comments, and sentiment analysis
-
-These datasets serve as the input for modeling and transformation within dbt.
-
----
-
+### Resources:
+- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
+- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
+- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
+- Find [dbt events](https://events.getdbt.com) near you
+- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
